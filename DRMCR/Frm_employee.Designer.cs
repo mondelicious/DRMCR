@@ -970,6 +970,7 @@
             this.btn_back.TabIndex = 57;
             this.btn_back.Text = "       Back";
             this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click_1);
             // 
             // Frm_employee
             // 

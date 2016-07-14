@@ -234,5 +234,12 @@ namespace DRMCR
         {
 
         }
+
+        private void btn_back_Click_1(object sender, EventArgs e)
+        {
+            Frm_admin fadmin = new Frm_admin();
+            fadmin.Show();
+            Hide();
+        }
     }
 }
