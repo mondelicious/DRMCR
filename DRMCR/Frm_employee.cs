@@ -229,5 +229,10 @@ namespace DRMCR
                 MessageBox.Show("Please input letters.", "System", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

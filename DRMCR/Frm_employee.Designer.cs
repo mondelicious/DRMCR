@@ -102,6 +102,7 @@
             this.btn_view = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_cancel = new System.Windows.Forms.Button();
+            this.btn_back = new System.Windows.Forms.Button();
             this.GroupBox1.SuspendLayout();
             this.GroupBox4.SuspendLayout();
             this.GroupBox2.SuspendLayout();
@@ -912,7 +913,7 @@
             // 
             this.btn_logout.Image = global::DRMCR.Properties.Resources.iconmonstr_log_out_3_32;
             this.btn_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_logout.Location = new System.Drawing.Point(590, 610);
+            this.btn_logout.Location = new System.Drawing.Point(695, 611);
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.Size = new System.Drawing.Size(86, 46);
             this.btn_logout.TabIndex = 55;
@@ -958,11 +959,24 @@
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
+            // btn_back
+            // 
+            this.btn_back.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.Image = global::DRMCR.Properties.Resources.iconmonstr_undo_5_32;
+            this.btn_back.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_back.Location = new System.Drawing.Point(590, 610);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(99, 46);
+            this.btn_back.TabIndex = 57;
+            this.btn_back.Text = "       Back";
+            this.btn_back.UseVisualStyleBackColor = true;
+            // 
             // Frm_employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(932, 706);
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.GroupBox1);
             this.Controls.Add(this.btn_logout);
@@ -1069,5 +1083,6 @@
         private System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.DateTimePicker txt_timeStart;
         private System.Windows.Forms.DateTimePicker txt_timeEnd;
+        private System.Windows.Forms.Button btn_back;
     }
 }
