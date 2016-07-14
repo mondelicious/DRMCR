@@ -123,7 +123,7 @@ namespace DRMCR
 
         private void Frm_employee_Load(object sender, EventArgs e)
         {
-
+            txt_date.Text = DateTime.Now.Date.ToShortDateString();
         }
 
         private void btn_logout_Click(object sender, EventArgs e)

@@ -35,8 +35,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txt_search = new System.Windows.Forms.TextBox();
+            this.cBoxSearchBy = new System.Windows.Forms.ComboBox();
+            this.btn_search = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -124,33 +125,48 @@
             this.label2.TabIndex = 49;
             this.label2.Text = "Search By:";
             // 
-            // textBox1
+            // txt_search
             // 
-            this.textBox1.Location = new System.Drawing.Point(314, 120);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
-            this.textBox1.TabIndex = 50;
+            this.txt_search.Location = new System.Drawing.Point(314, 120);
+            this.txt_search.Name = "txt_search";
+            this.txt_search.Size = new System.Drawing.Size(170, 20);
+            this.txt_search.TabIndex = 50;
             // 
-            // comboBox1
+            // cBoxSearchBy
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cBoxSearchBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cBoxSearchBy.FormattingEnabled = true;
+            this.cBoxSearchBy.Items.AddRange(new object[] {
             "DATE",
             "ID NUMBER",
             "TEL NO."});
-            this.comboBox1.Location = new System.Drawing.Point(138, 120);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(170, 21);
-            this.comboBox1.TabIndex = 51;
+            this.cBoxSearchBy.Location = new System.Drawing.Point(138, 120);
+            this.cBoxSearchBy.Name = "cBoxSearchBy";
+            this.cBoxSearchBy.Size = new System.Drawing.Size(170, 21);
+            this.cBoxSearchBy.TabIndex = 51;
+            // 
+            // btn_search
+            // 
+            this.btn_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_search.Image = global::DRMCR.Properties.Resources.iconmonstr_magnifier_4_32;
+            this.btn_search.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_search.Location = new System.Drawing.Point(490, 104);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(86, 45);
+            this.btn_search.TabIndex = 88;
+            this.btn_search.Text = "Search";
+            this.btn_search.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.Click += new System.EventHandler(this.button3_Click);
             // 
             // Frm_Logistics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 560);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_search);
+            this.Controls.Add(this.cBoxSearchBy);
+            this.Controls.Add(this.txt_search);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -178,7 +194,8 @@
         internal System.Windows.Forms.Label Label1;
         internal System.Windows.Forms.Label Label29;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txt_search;
+        private System.Windows.Forms.ComboBox cBoxSearchBy;
+        private System.Windows.Forms.Button btn_search;
     }
 }
