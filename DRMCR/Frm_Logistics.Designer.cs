@@ -31,8 +31,8 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Label1 = new System.Windows.Forms.Label();
             this.Label29 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_logout = new System.Windows.Forms.Button();
+            this.btn_manage = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_search = new System.Windows.Forms.TextBox();
@@ -77,32 +77,32 @@
             this.Label29.TabIndex = 43;
             this.Label29.Text = "CONSOLIDATED INDIVIDUAL DAILY WORK REPORT";
             // 
-            // button2
+            // btn_logout
             // 
-            this.button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::DRMCR.Properties.Resources.iconmonstr_log_out_3_32;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(683, 205);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 49);
-            this.button2.TabIndex = 48;
-            this.button2.Text = "      Log Out";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_logout.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_logout.Image = global::DRMCR.Properties.Resources.iconmonstr_log_out_3_32;
+            this.btn_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_logout.Location = new System.Drawing.Point(683, 205);
+            this.btn_logout.Name = "btn_logout";
+            this.btn_logout.Size = new System.Drawing.Size(156, 49);
+            this.btn_logout.TabIndex = 48;
+            this.btn_logout.Text = "      Log Out";
+            this.btn_logout.UseVisualStyleBackColor = true;
+            this.btn_logout.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btn_manage
             // 
-            this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::DRMCR.Properties.Resources.iconmonstr_user_21_32__1_;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(683, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 49);
-            this.button1.TabIndex = 47;
-            this.button1.Text = "Manage Account";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_manage.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_manage.Image = global::DRMCR.Properties.Resources.iconmonstr_user_21_32__1_;
+            this.btn_manage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_manage.Location = new System.Drawing.Point(683, 150);
+            this.btn_manage.Name = "btn_manage";
+            this.btn_manage.Size = new System.Drawing.Size(156, 49);
+            this.btn_manage.TabIndex = 47;
+            this.btn_manage.Text = "Manage Account";
+            this.btn_manage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_manage.UseVisualStyleBackColor = true;
+            this.btn_manage.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -168,8 +168,8 @@
             this.Controls.Add(this.cBoxSearchBy);
             this.Controls.Add(this.txt_search);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_logout);
+            this.Controls.Add(this.btn_manage);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Label1);
@@ -187,8 +187,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_logout;
+        private System.Windows.Forms.Button btn_manage;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
         internal System.Windows.Forms.Label Label1;

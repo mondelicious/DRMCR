@@ -19,23 +19,23 @@ namespace DRMCR
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Hide();
             Frm_manageDB fdb = new Frm_manageDB();
             fdb.ShowDialog();
+            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Hide();
             Frm_Logistics flg = new Frm_Logistics();
             flg.ShowDialog();
+            Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Hide();
             Frm_employee fem = new Frm_employee();
             fem.ShowDialog();
+            Hide();
             
         }
 
@@ -43,7 +43,7 @@ namespace DRMCR
         {
             Frm_login flog = new Frm_login();
             flog.ShowDialog();
-            Close();
+            Hide();
         }
     }
 }

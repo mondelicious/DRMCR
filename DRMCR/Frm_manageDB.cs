@@ -76,8 +76,7 @@ namespace DRMCR
         {
             Frm_login flogin = new Frm_login();
             flogin.Show();
-            Frm_manageDB fdb = new Frm_manageDB();
-            fdb.Dispose();
+            Dispose();
         }
     }
 }

@@ -239,7 +239,7 @@ namespace DRMCR
         {
             Frm_admin fadmin = new Frm_admin();
             fadmin.Show();
-            Hide();
+            Dispose();
         }
     }
 }

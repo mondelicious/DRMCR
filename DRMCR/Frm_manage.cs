@@ -110,7 +110,7 @@ namespace DRMCR
         {
             Frm_Logistics flogic = new Frm_Logistics();
             flogic.Show();
-            this.Close();
+            Dispose();
         }
 
         private void textBox17_TextChanged(object sender, EventArgs e)
@@ -168,7 +168,7 @@ namespace DRMCR
         {
             Frm_Logistics flogics = new Frm_Logistics();
             flogics.Show();
-            Hide();
+            Dispose();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
