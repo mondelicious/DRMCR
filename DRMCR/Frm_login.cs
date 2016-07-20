@@ -30,12 +30,7 @@ namespace DRMCR
             cmd.Parameters.AddWithValue("pw", txt_pw.Text);
             cmd.Parameters.AddWithValue("ut", cBoxUser.Text);
             MySqlDataReader reader = cmd.ExecuteReader();
-
-            //int count = 0;
-            //while (reader.Read())
-            //{
-            //    count = count + 1;
-            //}
+            
             if (reader.HasRows)
             {
                 if (cBoxUser.Text == "Admin")

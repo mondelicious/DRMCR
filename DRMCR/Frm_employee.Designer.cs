@@ -70,6 +70,8 @@
             this.Label42 = new System.Windows.Forms.Label();
             this.txt_parallelWire = new System.Windows.Forms.TextBox();
             this.GroupBox4 = new System.Windows.Forms.GroupBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.txt_date = new System.Windows.Forms.TextBox();
             this.txt_bawa = new System.Windows.Forms.TextBox();
             this.Label20 = new System.Windows.Forms.Label();
             this.Label22 = new System.Windows.Forms.Label();
@@ -103,8 +105,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.btn_back = new System.Windows.Forms.Button();
-            this.txt_date = new System.Windows.Forms.TextBox();
-            this.label36 = new System.Windows.Forms.Label();
             this.GroupBox1.SuspendLayout();
             this.GroupBox4.SuspendLayout();
             this.GroupBox2.SuspendLayout();
@@ -597,6 +597,26 @@
             this.GroupBox4.TabStop = false;
             this.GroupBox4.Text = " ";
             // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(423, 92);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(44, 13);
+            this.label36.TabIndex = 35;
+            this.label36.Text = "DATE:";
+            // 
+            // txt_date
+            // 
+            this.txt_date.Enabled = false;
+            this.txt_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_date.Location = new System.Drawing.Point(532, 89);
+            this.txt_date.Multiline = true;
+            this.txt_date.Name = "txt_date";
+            this.txt_date.Size = new System.Drawing.Size(186, 20);
+            this.txt_date.TabIndex = 34;
+            // 
             // txt_bawa
             // 
             this.txt_bawa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -975,26 +995,6 @@
             this.btn_back.Text = "       Back";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click_1);
-            // 
-            // txt_date
-            // 
-            this.txt_date.Enabled = false;
-            this.txt_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_date.Location = new System.Drawing.Point(532, 89);
-            this.txt_date.Multiline = true;
-            this.txt_date.Name = "txt_date";
-            this.txt_date.Size = new System.Drawing.Size(186, 20);
-            this.txt_date.TabIndex = 34;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(423, 92);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(44, 13);
-            this.label36.TabIndex = 35;
-            this.label36.Text = "DATE:";
             // 
             // Frm_employee
             // 

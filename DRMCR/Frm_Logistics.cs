@@ -42,16 +42,16 @@ namespace DRMCR
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Dispose();
             Frm_login flog = new Frm_login();
             flog.ShowDialog();
-            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Dispose();
             Frm_manage fmanage = new Frm_manage();
             fmanage.Show();
-            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)

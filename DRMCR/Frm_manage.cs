@@ -166,9 +166,9 @@ namespace DRMCR
 
         private void btn_bac_Click(object sender, EventArgs e)
         {
+            Dispose();
             Frm_Logistics flogics = new Frm_Logistics();
             flogics.Show();
-            Dispose();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -242,7 +242,6 @@ namespace DRMCR
                 MessageBox.Show("This textbox accepts only alphabetical characters.", "System", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-
         private void txt_ln_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back || e.KeyChar == (char)Keys.Space))
@@ -251,12 +250,10 @@ namespace DRMCR
                 MessageBox.Show("This textbox accepts only alphabetical characters.", "System", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-
         private void txt_contact_TextChanged(object sender, EventArgs e)
         {
 
         }
-
         private void txt_contact_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.Handled = !(char.IsDigit(e.KeyChar) || e.KeyChar == (char)Keys.Back || e.KeyChar == (char)Keys.Space))

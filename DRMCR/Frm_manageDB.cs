@@ -74,9 +74,9 @@ namespace DRMCR
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Dispose();
             Frm_login flogin = new Frm_login();
             flogin.Show();
-            Dispose();
         }
     }
 }
