@@ -844,7 +844,7 @@
             this.btn_save.Location = new System.Drawing.Point(326, 610);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(82, 46);
-            this.btn_save.TabIndex = 51;
+            this.btn_save.TabIndex = 31;
             this.btn_save.Text = "Save";
             this.btn_save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_save.UseVisualStyleBackColor = true;
@@ -940,7 +940,7 @@
             this.btn_logout.Location = new System.Drawing.Point(695, 611);
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.Size = new System.Drawing.Size(86, 46);
-            this.btn_logout.TabIndex = 55;
+            this.btn_logout.TabIndex = 35;
             this.btn_logout.Text = "Log Out";
             this.btn_logout.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_logout.UseVisualStyleBackColor = true;
@@ -953,7 +953,7 @@
             this.btn_view.Location = new System.Drawing.Point(414, 610);
             this.btn_view.Name = "btn_view";
             this.btn_view.Size = new System.Drawing.Size(78, 46);
-            this.btn_view.TabIndex = 54;
+            this.btn_view.TabIndex = 32;
             this.btn_view.Text = "View";
             this.btn_view.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_view.UseVisualStyleBackColor = true;
@@ -977,7 +977,7 @@
             this.btn_cancel.Location = new System.Drawing.Point(498, 610);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(86, 46);
-            this.btn_cancel.TabIndex = 56;
+            this.btn_cancel.TabIndex = 33;
             this.btn_cancel.Text = "Cancel";
             this.btn_cancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_cancel.UseVisualStyleBackColor = true;
@@ -991,7 +991,7 @@
             this.btn_back.Location = new System.Drawing.Point(590, 610);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(99, 46);
-            this.btn_back.TabIndex = 57;
+            this.btn_back.TabIndex = 34;
             this.btn_back.Text = "       Back";
             this.btn_back.UseVisualStyleBackColor = true;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click_1);

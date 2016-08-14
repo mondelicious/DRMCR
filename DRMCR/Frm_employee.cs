@@ -83,44 +83,47 @@ namespace DRMCR
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Do you want to save this information?", "System", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (txt_telno.Text == string.Empty || txt_serviceord.Text == string.Empty || cBoxTos.Text == string.Empty || txt_timeStart.Text == string.Empty || txt_timeEnd.Text == string.Empty || txt_clrm.Text == string.Empty || txt_okNo.Text == string.Empty || txt_primeCab.Text == string.Empty && txt_secondCab.Text == string.Empty && txt_noSpan.Text == string.Empty && cBoxInstruModem.Text == string.Empty || txt_parallelWire.Text == string.Empty || txt_jacketWire.Text == string.Empty || txt_groundWire.Text == string.Empty && txt_conblock.Text == string.Empty || txt_splitter.Text == string.Empty || txt_subsName.Text == string.Empty || txt_address.Text == string.Empty || txt_remarks.Text == string.Empty || txt_mlrID.Text == string.Empty || txt_id1.Text == string.Empty || txt_id2.Text == string.Empty || txt_bawa.Text == string.Empty || txt_submitBy.Text == string.Empty || txt_notedBy.Text == string.Empty || txt_receivedBy.Text == string.Empty || txt_date.Text == string.Empty)
             {
-                telNo = txt_telno.Text;
-                servOrder = txt_serviceord.Text;
-                tos = cBoxTos.Text;
-                timeStart = txt_timeStart.Text;
-                timeEnd = txt_timeEnd.Text;
-                clrm = txt_clrm.Text;
-                okNo = txt_okNo.Text;
-                primCab = txt_primeCab.Text;
-                secCab = txt_secondCab.Text;
-                noSpan = txt_noSpan.Text;
-                instruMod = cBoxInstruModem.Text;
-                parallelWire = txt_parallelWire.Text;
-                jackWire = txt_jacketWire.Text;
-                protectPc = txt_protector.Text;
-                pClamp = txt_pclamp.Text;
-                groundRod = txt_groundRod.Text;
-                groundWire = txt_groundWire.Text;
-                connBlock = txt_conblock.Text;
-                splitter = txt_splitter.Text;
-                subsName = txt_subsName.Text;
-                address = txt_address.Text;
-                remarks = txt_remarks.Text;
-                mlrID = txt_mlrID.Text;
-                id1 = txt_id1.Text;
-                id2 = txt_id2.Text;
-                bawa = txt_bawa.Text;
-                submitBy = txt_submitBy.Text;
-                notedBy = txt_notedBy.Text;
-                receivedBy = txt_receivedBy.Text;
-                date = txt_date.Text;
-                Cls_cmd.insertEmployee();
-                clear();
+                MessageBox.Show("Required field needs to be fulfilled", "System", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                //TODO:NOTHING
+                if (MessageBox.Show("Do you want to save this information?", "System", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    telNo = txt_telno.Text;
+                    servOrder = txt_serviceord.Text;
+                    tos = cBoxTos.Text;
+                    timeStart = txt_timeStart.Text;
+                    timeEnd = txt_timeEnd.Text;
+                    clrm = txt_clrm.Text;
+                    okNo = txt_okNo.Text;
+                    primCab = txt_primeCab.Text;
+                    secCab = txt_secondCab.Text;
+                    noSpan = txt_noSpan.Text;
+                    instruMod = cBoxInstruModem.Text;
+                    parallelWire = txt_parallelWire.Text;
+                    jackWire = txt_jacketWire.Text;
+                    protectPc = txt_protector.Text;
+                    pClamp = txt_pclamp.Text;
+                    groundRod = txt_groundRod.Text;
+                    groundWire = txt_groundWire.Text;
+                    connBlock = txt_conblock.Text;
+                    splitter = txt_splitter.Text;
+                    subsName = txt_subsName.Text;
+                    address = txt_address.Text;
+                    remarks = txt_remarks.Text;
+                    mlrID = txt_mlrID.Text;
+                    id1 = txt_id1.Text;
+                    id2 = txt_id2.Text;
+                    bawa = txt_bawa.Text;
+                    submitBy = txt_submitBy.Text;
+                    notedBy = txt_notedBy.Text;
+                    receivedBy = txt_receivedBy.Text;
+                    date = txt_date.Text;
+                    Cls_cmd.insertEmployee();
+                    clear();
+                }
             }
         }
 
