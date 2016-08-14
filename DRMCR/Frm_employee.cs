@@ -41,6 +41,7 @@ namespace DRMCR
         public static string submitBy = "";
         public static string notedBy = "";
         public static string receivedBy = "";
+        public static string date = "";
         public Frm_employee()
         {
             InitializeComponent();
@@ -77,6 +78,7 @@ namespace DRMCR
             txt_submitBy.Text = null;
             txt_notedBy.Text = null;
             txt_receivedBy.Text = null;
+            txt_date.Text = null;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -112,6 +114,7 @@ namespace DRMCR
                 submitBy = txt_submitBy.Text;
                 notedBy = txt_notedBy.Text;
                 receivedBy = txt_receivedBy.Text;
+                date = txt_date.Text;
                 Cls_cmd.insertEmployee();
                 clear();
             }
@@ -158,7 +161,7 @@ namespace DRMCR
 
         private void txt_okNo_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back || e.KeyChar == (char)Keys.Space))
+            if (e.Handled = !(char.IsDigit(e.KeyChar) || e.KeyChar == (char)Keys.Back || e.KeyChar == (char)Keys.Space))
             {
                 e.Handled = true; base.OnKeyPress(e);
                 MessageBox.Show("This textbox accepts only numerical.", "System", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);

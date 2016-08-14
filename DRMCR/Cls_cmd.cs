@@ -54,7 +54,7 @@ namespace DRMCR
 
             conn.Open();
             cmd.Connection = conn;
-            string INSERT = "INSERT INTO tbl_employee(Telephone_number,Service_Order,Type_of_Service,timeStart,timeEnd,Clrm_dispatch,Ok_no,Primary_cable,Secondary_cable,No_of_Span,Instrument_Modem,Paralleled_wire,Jacketed_wire,Protector,P_clamp,Ground_rod,Ground_wire,Connecting_block,Splitter,Subscriber_name,Address,Remarks,Installer_technician,Immediate_supervisor,Csoz_supervisor,Customer_service_Operation_zone,Submitted_by,Noted_by,Received_by)VALUES(@telno,@servOrder,@typeofServ,@tStart,@tEnd,@clrm,@ok,@pri,@sec,@nos,@instruMode,@parallelWire,@jacketWire,@protect,@pClamp,@gRod,@gWire,@connBlock,@split,@subsName,@address,@remark,@install,@immedSup,@csoz,@custServ,@submitBy,@noteBy,@recBy)";
+            string INSERT = "INSERT INTO tbl_employee(Telephone_number,Service_Order,Type_of_Service,timeStart,timeEnd,Clrm_dispatch,Ok_no,Primary_cable,Secondary_cable,No_of_Span,Instrument_Modem,Paralleled_wire,Jacketed_wire,Protector,P_clamp,Ground_rod,Ground_wire,Connecting_block,Splitter,Subscriber_name,Address,Remarks,Installer_technician,Immediate_supervisor,Csoz_supervisor,Customer_service_Operation_zone,Submitted_by,Noted_by,Received_by,Date)VALUES(@telno,@servOrder,@typeofServ,@tStart,@tEnd,@clrm,@ok,@pri,@sec,@nos,@instruMode,@parallelWire,@jacketWire,@protect,@pClamp,@gRod,@gWire,@connBlock,@split,@subsName,@address,@remark,@install,@immedSup,@csoz,@custServ,@submitBy,@noteBy,@recBy,@date)";
 
             cmd.Parameters.AddWithValue("telno", Frm_employee.telNo);
             cmd.Parameters.AddWithValue("servOrder", Frm_employee.servOrder);
@@ -85,6 +85,7 @@ namespace DRMCR
             cmd.Parameters.AddWithValue("submitBy", Frm_employee.submitBy);
             cmd.Parameters.AddWithValue("noteBy", Frm_employee.notedBy);
             cmd.Parameters.AddWithValue("recBy", Frm_employee.receivedBy);
+            cmd.Parameters.AddWithValue("date", Frm_employee.date);
             cmd.CommandText = INSERT;
             cmd.ExecuteNonQuery();
 

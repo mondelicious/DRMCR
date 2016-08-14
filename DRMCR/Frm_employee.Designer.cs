@@ -129,7 +129,7 @@
             this.txt_jacketWire.Multiline = true;
             this.txt_jacketWire.Name = "txt_jacketWire";
             this.txt_jacketWire.Size = new System.Drawing.Size(257, 20);
-            this.txt_jacketWire.TabIndex = 25;
+            this.txt_jacketWire.TabIndex = 13;
             // 
             // txt_splitter
             // 
@@ -138,7 +138,7 @@
             this.txt_splitter.Multiline = true;
             this.txt_splitter.Name = "txt_splitter";
             this.txt_splitter.Size = new System.Drawing.Size(258, 19);
-            this.txt_splitter.TabIndex = 24;
+            this.txt_splitter.TabIndex = 19;
             // 
             // Label19
             // 
@@ -190,7 +190,7 @@
             this.cBoxInstruModem.Location = new System.Drawing.Point(210, 6);
             this.cBoxInstruModem.Name = "cBoxInstruModem";
             this.cBoxInstruModem.Size = new System.Drawing.Size(258, 21);
-            this.cBoxInstruModem.TabIndex = 12;
+            this.cBoxInstruModem.TabIndex = 11;
             // 
             // txt_conblock
             // 
@@ -199,7 +199,7 @@
             this.txt_conblock.Multiline = true;
             this.txt_conblock.Name = "txt_conblock";
             this.txt_conblock.Size = new System.Drawing.Size(258, 19);
-            this.txt_conblock.TabIndex = 21;
+            this.txt_conblock.TabIndex = 18;
             // 
             // Label14
             // 
@@ -228,7 +228,7 @@
             this.txt_pclamp.Multiline = true;
             this.txt_pclamp.Name = "txt_pclamp";
             this.txt_pclamp.Size = new System.Drawing.Size(258, 20);
-            this.txt_pclamp.TabIndex = 18;
+            this.txt_pclamp.TabIndex = 15;
             // 
             // Label16
             // 
@@ -247,7 +247,7 @@
             this.txt_protector.Multiline = true;
             this.txt_protector.Name = "txt_protector";
             this.txt_protector.Size = new System.Drawing.Size(258, 20);
-            this.txt_protector.TabIndex = 16;
+            this.txt_protector.TabIndex = 14;
             // 
             // Label21
             // 
@@ -266,7 +266,7 @@
             this.txt_groundWire.Multiline = true;
             this.txt_groundWire.Name = "txt_groundWire";
             this.txt_groundWire.Size = new System.Drawing.Size(258, 19);
-            this.txt_groundWire.TabIndex = 5;
+            this.txt_groundWire.TabIndex = 17;
             // 
             // txt_groundRod
             // 
@@ -275,7 +275,7 @@
             this.txt_groundRod.Multiline = true;
             this.txt_groundRod.Name = "txt_groundRod";
             this.txt_groundRod.Size = new System.Drawing.Size(258, 19);
-            this.txt_groundRod.TabIndex = 3;
+            this.txt_groundRod.TabIndex = 16;
             // 
             // GroupBox1
             // 
@@ -316,7 +316,7 @@
             this.txt_timeEnd.Name = "txt_timeEnd";
             this.txt_timeEnd.ShowUpDown = true;
             this.txt_timeEnd.Size = new System.Drawing.Size(89, 18);
-            this.txt_timeEnd.TabIndex = 58;
+            this.txt_timeEnd.TabIndex = 5;
             // 
             // txt_timeStart
             // 
@@ -326,7 +326,7 @@
             this.txt_timeStart.Name = "txt_timeStart";
             this.txt_timeStart.ShowUpDown = true;
             this.txt_timeStart.Size = new System.Drawing.Size(89, 18);
-            this.txt_timeStart.TabIndex = 57;
+            this.txt_timeStart.TabIndex = 4;
             // 
             // txt_noSpan
             // 
@@ -335,7 +335,7 @@
             this.txt_noSpan.Multiline = true;
             this.txt_noSpan.Name = "txt_noSpan";
             this.txt_noSpan.Size = new System.Drawing.Size(186, 19);
-            this.txt_noSpan.TabIndex = 8;
+            this.txt_noSpan.TabIndex = 10;
             // 
             // Label13
             // 
@@ -364,7 +364,7 @@
             this.txt_okNo.Multiline = true;
             this.txt_okNo.Name = "txt_okNo";
             this.txt_okNo.Size = new System.Drawing.Size(186, 20);
-            this.txt_okNo.TabIndex = 5;
+            this.txt_okNo.TabIndex = 7;
             this.txt_okNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_okNo_KeyPress);
             // 
             // Label11
@@ -384,7 +384,7 @@
             this.txt_clrm.Multiline = true;
             this.txt_clrm.Name = "txt_clrm";
             this.txt_clrm.Size = new System.Drawing.Size(186, 20);
-            this.txt_clrm.TabIndex = 4;
+            this.txt_clrm.TabIndex = 6;
             this.txt_clrm.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_clrm_KeyPress);
             // 
             // Label10
@@ -447,7 +447,7 @@
             this.txt_secondCab.Multiline = true;
             this.txt_secondCab.Name = "txt_secondCab";
             this.txt_secondCab.Size = new System.Drawing.Size(186, 19);
-            this.txt_secondCab.TabIndex = 7;
+            this.txt_secondCab.TabIndex = 9;
             // 
             // Label5
             // 
@@ -466,7 +466,7 @@
             this.txt_primeCab.Multiline = true;
             this.txt_primeCab.Name = "txt_primeCab";
             this.txt_primeCab.Size = new System.Drawing.Size(186, 19);
-            this.txt_primeCab.TabIndex = 6;
+            this.txt_primeCab.TabIndex = 8;
             // 
             // txt_serviceord
             // 
@@ -524,7 +524,7 @@
             this.txt_address.Multiline = true;
             this.txt_address.Name = "txt_address";
             this.txt_address.Size = new System.Drawing.Size(328, 19);
-            this.txt_address.TabIndex = 10;
+            this.txt_address.TabIndex = 21;
             // 
             // Label4
             // 
@@ -564,7 +564,7 @@
             this.txt_parallelWire.Multiline = true;
             this.txt_parallelWire.Name = "txt_parallelWire";
             this.txt_parallelWire.Size = new System.Drawing.Size(258, 19);
-            this.txt_parallelWire.TabIndex = 13;
+            this.txt_parallelWire.TabIndex = 12;
             // 
             // GroupBox4
             // 
@@ -615,7 +615,7 @@
             this.txt_date.Multiline = true;
             this.txt_date.Name = "txt_date";
             this.txt_date.Size = new System.Drawing.Size(186, 20);
-            this.txt_date.TabIndex = 34;
+            this.txt_date.TabIndex = 30;
             // 
             // txt_bawa
             // 
@@ -624,7 +624,7 @@
             this.txt_bawa.Multiline = true;
             this.txt_bawa.Name = "txt_bawa";
             this.txt_bawa.Size = new System.Drawing.Size(74, 20);
-            this.txt_bawa.TabIndex = 28;
+            this.txt_bawa.TabIndex = 26;
             // 
             // Label20
             // 
@@ -665,7 +665,7 @@
             this.txt_id2.Multiline = true;
             this.txt_id2.Name = "txt_id2";
             this.txt_id2.Size = new System.Drawing.Size(74, 20);
-            this.txt_id2.TabIndex = 27;
+            this.txt_id2.TabIndex = 25;
             this.txt_id2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_id2_KeyPress);
             // 
             // Label27
@@ -707,7 +707,7 @@
             this.txt_id1.Multiline = true;
             this.txt_id1.Name = "txt_id1";
             this.txt_id1.Size = new System.Drawing.Size(74, 20);
-            this.txt_id1.TabIndex = 26;
+            this.txt_id1.TabIndex = 24;
             this.txt_id1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_id1_KeyPress);
             // 
             // Label31
@@ -749,7 +749,7 @@
             this.txt_mlrID.Multiline = true;
             this.txt_mlrID.Name = "txt_mlrID";
             this.txt_mlrID.Size = new System.Drawing.Size(74, 20);
-            this.txt_mlrID.TabIndex = 25;
+            this.txt_mlrID.TabIndex = 23;
             this.txt_mlrID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_mlrID_KeyPress);
             // 
             // Label34
@@ -769,7 +769,7 @@
             this.txt_receivedBy.Multiline = true;
             this.txt_receivedBy.Name = "txt_receivedBy";
             this.txt_receivedBy.Size = new System.Drawing.Size(186, 20);
-            this.txt_receivedBy.TabIndex = 32;
+            this.txt_receivedBy.TabIndex = 29;
             // 
             // txt_notedBy
             // 
@@ -778,7 +778,7 @@
             this.txt_notedBy.Multiline = true;
             this.txt_notedBy.Name = "txt_notedBy";
             this.txt_notedBy.Size = new System.Drawing.Size(186, 19);
-            this.txt_notedBy.TabIndex = 31;
+            this.txt_notedBy.TabIndex = 28;
             // 
             // txt_submitBy
             // 
@@ -787,7 +787,7 @@
             this.txt_submitBy.Multiline = true;
             this.txt_submitBy.Name = "txt_submitBy";
             this.txt_submitBy.Size = new System.Drawing.Size(186, 20);
-            this.txt_submitBy.TabIndex = 30;
+            this.txt_submitBy.TabIndex = 27;
             this.txt_submitBy.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_submitBy_KeyPress);
             // 
             // Label35
@@ -833,7 +833,7 @@
             this.txt_subsName.Multiline = true;
             this.txt_subsName.Name = "txt_subsName";
             this.txt_subsName.Size = new System.Drawing.Size(328, 19);
-            this.txt_subsName.TabIndex = 9;
+            this.txt_subsName.TabIndex = 20;
             this.txt_subsName.TextChanged += new System.EventHandler(this.txt_subsName_TextChanged);
             this.txt_subsName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_subsName_KeyPress);
             // 
@@ -931,7 +931,7 @@
             this.txt_remarks.Multiline = true;
             this.txt_remarks.Name = "txt_remarks";
             this.txt_remarks.Size = new System.Drawing.Size(328, 19);
-            this.txt_remarks.TabIndex = 11;
+            this.txt_remarks.TabIndex = 22;
             // 
             // btn_logout
             // 
